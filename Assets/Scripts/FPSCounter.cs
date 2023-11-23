@@ -6,6 +6,12 @@ using UnityEngine.UI;
 public class FPSCounter : MonoBehaviour
 {
     [SerializeField] Text textFps;
+
+    /// <summary>
+    /// че то типа накомитил
+    /// </summary> <summary>
+    /// 
+    /// </summary>
     int fpsCounter = 0;
     float mTimeCounter = 0.0f;
     float lastFrameRate = 0.0f;
